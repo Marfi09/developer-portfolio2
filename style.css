@@ -11,16 +11,17 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 10px;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
    padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 
 }
-#linkedin{
+.linkedin{
     text-decoration: none;
    background-image: linear-gradient(tomato, orange);
    color: white;
@@ -33,6 +34,11 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.middle-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
     
    

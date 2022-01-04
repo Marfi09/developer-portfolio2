@@ -9,7 +9,7 @@ h1{
 #marfi09{
     color: orange;
 }
-section{
+.section-container{
     display: flex;
     margin-bottom: 10px;
 }

@@ -6,7 +6,7 @@ margin: 0;
 h1{
     font-size: 50px;
 }
-#marfi09{
+.marfi09{
     color: orange;
 }
 .section-container{
@@ -15,7 +15,30 @@ h1{
 }
 .half-width{
     width: 40%;
-   padding-left: 5%;
+   padding-left: 5%; 
+}
+footer p{
+    text-align: center;
+}
+
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .half-width img{
     width: 100%;
@@ -40,5 +63,16 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.end-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h2{
+    font-size: 30px;
+}
     
+.last{
+    margin-bottom: 100px;
+}
    
